@@ -6,9 +6,8 @@
 let xpHeroi = 500;
 let nomeHeroi = "Capitão América";
 let contador = 0;
-
+let nivelHeroi = "";
 while (contador < 5) {
-  let nivelHeroi = "";
   if (xpHeroi <= 1000) {
     nivelHeroi = "Ferro";
   } else if (xpHeroi >= 1001 && xpHeroi <= 2000) {
